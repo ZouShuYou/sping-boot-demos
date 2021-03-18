@@ -23,21 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2cffdca-6633-413a-b21c-938f9a5b663e" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616047998934</updated>
       <workItem from="1616047999962" duration="2751000" />
-      <workItem from="1616052332232" duration="8969000" />
+      <workItem from="1616052332232" duration="9239000" />
     </task>
     <servers />
   </component>
@@ -173,58 +160,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1616063060811" />
-    <state x="249" y="0" key="#项目结构" timestamp="1616062652966">
+    <state x="249" y="0" key="#项目结构" timestamp="1616063275278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1616062652966" />
-    <state width="1493" height="379" key="GridCell.Tab.0.bottom" timestamp="1616063257562">
+    <state x="249" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1616063275278" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1616063535591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616063257562" />
-    <state width="1493" height="379" key="GridCell.Tab.0.center" timestamp="1616063257562">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616063535591" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1616063535591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616063257562" />
-    <state width="1493" height="379" key="GridCell.Tab.0.left" timestamp="1616063257562">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616063535591" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1616063535591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616063257562" />
-    <state width="1493" height="379" key="GridCell.Tab.0.right" timestamp="1616063257562">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616063535591" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1616063535591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616063257562" />
-    <state width="1493" height="379" key="GridCell.Tab.1.bottom" timestamp="1616063257562">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616063535591" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1616063535591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616063257562" />
-    <state width="1493" height="379" key="GridCell.Tab.1.center" timestamp="1616063257562">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616063535591" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1616063535591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616063257562" />
-    <state width="1493" height="379" key="GridCell.Tab.1.left" timestamp="1616063257562">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616063535591" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1616063535591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616063257562" />
-    <state width="1493" height="379" key="GridCell.Tab.1.right" timestamp="1616063257562">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616063535591" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1616063535591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616063257562" />
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1616063073496">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616063535591" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1616063535592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616063073496" />
-    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1616063073496">
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616063535592" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1616063535592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1616063073496" />
-    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1616063073496">
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1616063535592" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1616063535592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1616063073496" />
-    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1616063073496">
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1616063535592" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1616063535592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1616063073496" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1616063535592" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1616052147382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -233,16 +220,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="322" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1616053721481" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/demos/springboot/service/UserService.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

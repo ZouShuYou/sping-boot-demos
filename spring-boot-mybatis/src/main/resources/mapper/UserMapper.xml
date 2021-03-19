@@ -2,6 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.demos.springboot.dao.UserDao">
+<!--  使用包别名  省略包  com.demos.springboot.domain  -->
     <resultMap id="BaseResultMap" type="User">
         <result column="id" property="id" />
         <result column="userName" property="userName" />

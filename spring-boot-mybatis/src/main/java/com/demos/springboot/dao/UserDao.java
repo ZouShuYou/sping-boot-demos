@@ -1,7 +1,8 @@
 package com.demos.springboot.dao;
 
-import com.demos.springboot.domain.User;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.Map;
 
 /**
  * @author zousy
@@ -12,5 +13,5 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface UserDao {
 
-    User findUserByName(String userName);
+    Map<String, Object> findUserByName(String userName);
 }

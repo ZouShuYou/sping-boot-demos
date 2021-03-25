@@ -1,9 +1,10 @@
 package com.demos.springboot.service;
 
 import com.demos.springboot.dao.UserDao;
-import com.demos.springboot.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Map;
 
 /**
  * @author zousy
@@ -17,7 +18,10 @@ public class UserService {
     @Autowired
     UserDao userDao;
 
-    public User findByUserName(String userNmae) {
-        return userDao.findUserByName(userNmae);
+    public Map findByUserName(String userNmae) {
+        Map<String, Object> map = userDao.findUserByName(userNmae);
+
+        return map;
+
     }
 }

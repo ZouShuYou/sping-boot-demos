@@ -23,11 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2cffdca-6633-413a-b21c-938f9a5b663e" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/demos/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/demos/springboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/demos/springboot/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/demos/springboot/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/demos/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/demos/springboot/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +160,7 @@
       </method>
     </configuration>
     <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot (2)" />
+      <module name="spring-boot-mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.demos.springboot.*" />
@@ -168,8 +168,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.demos.springboot.SpringbootApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,7 +184,6 @@
         <item itemvalue="Spring Boot.SpringbootApplication" />
         <item itemvalue="JUnit.DemosApplicationTests.contextLoads" />
         <item itemvalue="JUnit.DemosApplicationTests" />
-        <item itemvalue="JUnit.DemosApplicationTests.test" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +205,7 @@
       <workItem from="1616376763379" duration="4765000" />
       <workItem from="1616401925180" duration="1830000" />
       <workItem from="1616476227388" duration="19359000" />
-      <workItem from="1616640678173" duration="5341000" />
+      <workItem from="1616640678173" duration="6828000" />
     </task>
     <servers />
   </component>
@@ -228,10 +225,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="54" width="1089" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616662350035">
+    <state x="223" y="54" width="1089" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616667337904">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="54" width="1089" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616662350035" />
+    <state x="223" y="54" width="1089" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616667337904" />
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1616551024540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -260,38 +257,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="465" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1616121085258" />
-    <state width="1493" height="379" key="GridCell.Tab.0.bottom" timestamp="1616663956810">
+    <state width="1493" height="379" key="GridCell.Tab.0.bottom" timestamp="1616667733803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616663956810" />
-    <state width="1493" height="379" key="GridCell.Tab.0.center" timestamp="1616663956810">
+    <state width="1493" height="379" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616667733803" />
+    <state width="1493" height="379" key="GridCell.Tab.0.center" timestamp="1616667733802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616663956810" />
-    <state width="1493" height="379" key="GridCell.Tab.0.left" timestamp="1616663956810">
+    <state width="1493" height="379" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616667733802" />
+    <state width="1493" height="379" key="GridCell.Tab.0.left" timestamp="1616667733802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616663956810" />
-    <state width="1493" height="379" key="GridCell.Tab.0.right" timestamp="1616663956810">
+    <state width="1493" height="379" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616667733802" />
+    <state width="1493" height="379" key="GridCell.Tab.0.right" timestamp="1616667733803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616663956810" />
-    <state width="1493" height="379" key="GridCell.Tab.1.bottom" timestamp="1616663956810">
+    <state width="1493" height="379" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616667733803" />
+    <state width="1493" height="379" key="GridCell.Tab.1.bottom" timestamp="1616667733803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616663956810" />
-    <state width="1493" height="379" key="GridCell.Tab.1.center" timestamp="1616663956810">
+    <state width="1493" height="379" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616667733803" />
+    <state width="1493" height="379" key="GridCell.Tab.1.center" timestamp="1616667733803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616663956810" />
-    <state width="1493" height="379" key="GridCell.Tab.1.left" timestamp="1616663956810">
+    <state width="1493" height="379" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616667733803" />
+    <state width="1493" height="379" key="GridCell.Tab.1.left" timestamp="1616667733803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616663956810" />
-    <state width="1493" height="379" key="GridCell.Tab.1.right" timestamp="1616663956810">
+    <state width="1493" height="379" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616667733803" />
+    <state width="1493" height="379" key="GridCell.Tab.1.right" timestamp="1616667733803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616663956810" />
+    <state width="1493" height="379" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616667733803" />
     <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1616381907007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

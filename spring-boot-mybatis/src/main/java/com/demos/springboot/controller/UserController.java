@@ -1,12 +1,13 @@
 package com.demos.springboot.controller;
 
-import com.demos.springboot.domain.User;
 import com.demos.springboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Map;
 
 /**
  * @author zousy
@@ -21,7 +22,7 @@ public class UserController {
     UserService userService;
 
     @RequestMapping(value = "/user",method = RequestMethod.GET)
-    public User findByUserName(@RequestParam(value = "userName",required = true) String userNmae){
+    public Map findByUserName(@RequestParam(value = "userName",required = true) String userNmae){
         return userService.findByUserName(userNmae);
     }
 }

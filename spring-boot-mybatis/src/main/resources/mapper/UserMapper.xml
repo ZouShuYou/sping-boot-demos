@@ -17,7 +17,7 @@
 		id, userName, password, user_sex, nick_name
 	</sql>
 
-    <select id="findUserByName" resultMap="BaseResultMap" parameterType="java.lang.String">
+    <select id="findUserByName" resultType="java.util.HashMap" parameterType="java.lang.String">
         select
         <include refid="Base_Column_List" />
         from user

@@ -12,6 +12,7 @@
         <module name="spring-boot-data-redis" />
         <module name="springboot (1)" />
         <module name="spring-boot-data-jpa" />
+        <module name="springboot (2)" />
         <module name="springboot" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="spring-boot-mybatis-annotation" target="1.8" />
       <module name="springboot" target="1.8" />
       <module name="springboot (1)" target="1.8" />
+      <module name="springboot (2)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,6 +36,7 @@
       <module name="spring-boot-mybatis-annotation" options="-parameters" />
       <module name="springboot" options="-parameters" />
       <module name="springboot (1)" options="-parameters" />
+      <module name="springboot (2)" options="-parameters" />
     </option>
   </component>
 </project>

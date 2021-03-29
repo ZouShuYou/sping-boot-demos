@@ -6,37 +6,48 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demos" />
+        <module name="spring-boot-mybatis-multidatasource" />
+        <module name="spring-boot-mybatis-multidatasource-annotation" />
+        <module name="spring-boot-helloworld" />
+        <module name="spring-bean-lifecycle" />
         <module name="spring-boot-mybatis-annotation" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-data-redis" />
-        <module name="springboot (1)" />
         <module name="spring-boot-data-jpa" />
-        <module name="springboot (2)" />
-        <module name="springboot" />
+        <module name="spring-boot-data-cache" />
+        <module name="spring-boot-file-upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demos" target="1.8" />
+      <module name="spring-bean-lifecycle" target="1.8" />
+      <module name="spring-boot-data-cache" target="1.8" />
       <module name="spring-boot-data-jpa" target="1.8" />
       <module name="spring-boot-data-redis" target="1.8" />
+      <module name="spring-boot-file-upload" target="1.8" />
+      <module name="spring-boot-helloworld" target="1.8" />
+      <module name="spring-boot-mybaits-multidatasource" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-annotation" target="1.8" />
-      <module name="springboot" target="1.8" />
-      <module name="springboot (1)" target="1.8" />
+      <module name="spring-boot-mybatis-multidatasource" target="1.8" />
+      <module name="spring-boot-mybatis-multidatasource-annotation" target="1.8" />
       <module name="springboot (2)" target="1.8" />
+      <module name="springboot (3)" target="1.8" />
+      <module name="springboot (4)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demos" options="-parameters" />
+      <module name="spring-bean-lifecycle" options="-parameters" />
+      <module name="spring-boot-data-cache" options="-parameters" />
       <module name="spring-boot-data-jpa" options="-parameters" />
       <module name="spring-boot-data-redis" options="-parameters" />
+      <module name="spring-boot-file-upload" options="-parameters" />
+      <module name="spring-boot-helloworld" options="-parameters" />
+      <module name="spring-boot-mybaits-multidatasource" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-mybatis-annotation" options="-parameters" />
-      <module name="springboot" options="-parameters" />
-      <module name="springboot (1)" options="-parameters" />
-      <module name="springboot (2)" options="-parameters" />
+      <module name="spring-boot-mybatis-multidatasource" options="-parameters" />
+      <module name="spring-boot-mybatis-multidatasource-annotation" options="-parameters" />
     </option>
   </component>
 </project>

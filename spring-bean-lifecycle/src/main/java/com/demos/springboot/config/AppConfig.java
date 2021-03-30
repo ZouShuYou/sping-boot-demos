@@ -1,7 +1,12 @@
 package com.demos.springboot.config;
 
-import org.springframework.context.annotation.ComponentScan;
+import com.demos.springboot.bean.MyBeanFactoryPostProcessor;
+import com.demos.springboot.bean.MyBeanPostProcessor;
+import com.demos.springboot.bean.MyInstantiationAwareBeanPostProcessor;
+import com.demos.springboot.bean.Person;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 /**
  * @author zousy
@@ -10,7 +15,26 @@ import org.springframework.context.annotation.Configuration;
  * @date 2021-03-29 17:40
  */
 @Configuration
-@ComponentScan("com.demos.springboot.bean")
+@PropertySource("classpath:application.properties")
 public class AppConfig {
 
+    @Bean(name = "ppp",initMethod = "myInit",destroyMethod = "myDestroy")
+    public Person getPerson(){
+        return new Person();
+    }
+
+    @Bean(name = "myBeanFactoryPostProcessor")
+    public MyBeanFactoryPostProcessor getMyBeanFactoryPostProcessor(){
+        return new MyBeanFactoryPostProcessor();
+    }
+
+    @Bean
+    public MyBeanPostProcessor myBeanPostProcessor(){
+        return new MyBeanPostProcessor();
+    }
+
+    @Bean
+    public MyInstantiationAwareBeanPostProcessor getMyInstantiationAwareBeanPostProcessor(){
+        return  new MyInstantiationAwareBeanPostProcessor();
+    }
 }

@@ -1,6 +1,7 @@
 package com.demos.springboot;
 
 import com.demos.springboot.bean.Person;
+import com.demos.springboot.bean.User;
 import com.demos.springboot.config.AppConfig;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -18,8 +19,10 @@ public class SpringbootApplication {
         System.out.println("容器初始化成功");
 
         Person person = context.getBean(Person.class);
+        User user = context.getBean(User.class);
 
         System.out.println(person);
+        System.out.println(user);
 
         System.out.println("现在开始关闭容器！");
 

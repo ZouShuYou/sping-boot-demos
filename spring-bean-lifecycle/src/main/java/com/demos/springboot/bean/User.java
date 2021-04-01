@@ -3,7 +3,6 @@ package com.demos.springboot.bean;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
-import org.springframework.stereotype.Component;
 
 /**
  * @author zousy
@@ -12,9 +11,7 @@ import org.springframework.stereotype.Component;
  * @date 2021-03-29 17:40
  */
 
-@Component("user")
 @Data
-@PropertySource(value = "classpath:/application.properties")
 public class User {
 
     @Value(value = "${user1.name1}")

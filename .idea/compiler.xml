@@ -15,11 +15,13 @@
         <module name="spring-boot-data-redis" />
         <module name="spring-boot-data-jpa" />
         <module name="spring-boot-data-cache" />
+        <module name="spring-boot-async" />
         <module name="spring-boot-file-upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-bean-lifecycle" target="1.8" />
+      <module name="spring-boot-async" target="1.8" />
       <module name="spring-boot-data-cache" target="1.8" />
       <module name="spring-boot-data-jpa" target="1.8" />
       <module name="spring-boot-data-redis" target="1.8" />
@@ -38,6 +40,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-bean-lifecycle" options="-parameters" />
+      <module name="spring-boot-async" options="-parameters" />
       <module name="spring-boot-data-cache" options="-parameters" />
       <module name="spring-boot-data-jpa" options="-parameters" />
       <module name="spring-boot-data-redis" options="-parameters" />

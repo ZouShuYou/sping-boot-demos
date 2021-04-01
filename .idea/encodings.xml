@@ -2,11 +2,12 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/spring-bean-lifecycle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-async/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-data-cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-data-jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-data-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-file-upload/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-helloword/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-helloworld/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-multidatasource-annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java" charset="UTF-8" />

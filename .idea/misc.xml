@@ -15,8 +15,9 @@
         <option value="$PROJECT_DIR$/spring-boot-file-upload/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-multidatasource-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-data-cache/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-helloword/pom.xml" />
         <option value="$PROJECT_DIR$/spring-bean-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-async/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-helloworld/pom.xml" />
       </list>
     </option>
   </component>

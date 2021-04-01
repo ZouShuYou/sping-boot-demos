@@ -3,8 +3,10 @@ package com.demos.springboot.service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.stereotype.Service;
 
+import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -21,6 +23,13 @@ public class AsyncService {
     public void testAsync(){
         sleep();
         logger.info("异步调用线程信息："+Thread.currentThread().getName());
+    }
+
+    @Async("threadPoolTaskExecutor")
+    public Future<String> async(){
+        sleep();
+        logger.info("异步调用线程信息："+Thread.currentThread().getName());
+        return new AsyncResult<>("异步调用成功");
     }
 
     public void testSync(){

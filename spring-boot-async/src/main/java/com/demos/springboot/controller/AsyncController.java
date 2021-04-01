@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+
 /**
  * @author zousy
  * @version v1.0
@@ -21,14 +24,15 @@ public class AsyncController {
     AsyncService asyncService;
 
     @GetMapping("/async")
-    public void async(){
+    public String async() throws ExecutionException, InterruptedException {
         long start = System.currentTimeMillis();
         logger.info("当前线程信息："+Thread.currentThread().getName());
         logger.info("开始执行@Async注解标记的异步方法：" + start);
-        asyncService.testAsync();
+        Future<String> async = asyncService.async();
         long end = System.currentTimeMillis();
 
         logger.info("耗时：{}", end - start);
+        return async.get();
     }
 
     @GetMapping("/sync")

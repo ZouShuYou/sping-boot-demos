@@ -7,15 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-mybatis-multidatasource" />
-        <module name="spring-boot-mybatis-multidatasource-annotation" />
-        <module name="spring-boot-helloworld" />
-        <module name="spring-bean-lifecycle" />
-        <module name="spring-boot-mybatis-annotation" />
-        <module name="spring-boot-mybatis" />
-        <module name="spring-boot-data-redis" />
-        <module name="spring-boot-data-jpa" />
-        <module name="spring-boot-data-cache" />
-        <module name="spring-boot-async" />
         <module name="spring-boot-file-upload" />
       </profile>
     </annotationProcessing>

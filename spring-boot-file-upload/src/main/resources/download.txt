@@ -1,0 +1,11 @@
+
+1<!DOCTYPE html>
+<html lang="en">
+<head>asdasd
+    <meta chasdarset="UTF-8">
+    <title>文件asd断点下载</title>
+</head>asd
+<body>asd
+<a href="asd./download/download.html">下载</a>
+</body>
+</html>asdqwdasd

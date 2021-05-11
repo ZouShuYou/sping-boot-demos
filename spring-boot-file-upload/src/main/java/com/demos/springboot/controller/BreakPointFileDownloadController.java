@@ -1,5 +1,7 @@
 package com.demos.springboot.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.util.Enumeration;
 
 /**
  * @author zousy
@@ -17,6 +20,8 @@ import java.io.*;
  */
 @RestController
 public class BreakPointFileDownloadController {
+
+    Logger logger = LoggerFactory.getLogger(BreakPointFileDownloadController.class);
 
     @GetMapping("/download/{name}")
     public void getDownloadFile(@PathVariable(value = "name") String name,
@@ -33,6 +38,16 @@ public class BreakPointFileDownloadController {
             return;
         }
 
+            Enumeration<String> paramName = request.getHeaderNames();
+            while (paramName.hasMoreElements()){
+                String n = paramName.nextElement().toString();
+                if( name.length() > 0){
+                    String value = request.getHeader(n);
+                    logger.info("************" + n + "：" + value);
+                }
+            }
+
+
         long downloadSize = file.length();
         long fromPos = 0, toPos = 0;
         if (request.getHeader("Range") == null) {
@@ -45,11 +60,12 @@ public class BreakPointFileDownloadController {
                 writer = response.getWriter();
                 writer.write("请求不带 Range");
                 writer.flush();
-                return;
             } catch (IOException e) {
                 e.printStackTrace();
             }finally {
-                writer.close();
+                if (writer != null) {
+                    writer.close();
+                }
             }
         } else {
             response.setStatus(HttpServletResponse.SC_PARTIAL_CONTENT);

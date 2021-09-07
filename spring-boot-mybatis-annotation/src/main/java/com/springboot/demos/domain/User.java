@@ -1,10 +1,12 @@
 package com.springboot.demos.domain;
 
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.springboot.demos.contranst.UserSexEnum;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @author zousy
@@ -20,6 +22,8 @@ public class User implements Serializable {
     private Long id;
     private String userName;
     private String password;
+    @JsonProperty("sex")
     private UserSexEnum userSex;
     private String nickName;
+    private Date birthday;
 }

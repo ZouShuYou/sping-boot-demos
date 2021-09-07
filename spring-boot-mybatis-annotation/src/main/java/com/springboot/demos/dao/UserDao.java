@@ -16,13 +16,14 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface UserDao {
 
-    @Select(value = "select id, userName, password, user_sex, nick_name from user")
+    @Select(value = "select id, userName, password, user_sex, nick_name, birthday from user")
     @Results({
         @Result(property = "id",column = "id"),
         @Result(property = "userName",column = "userName"),
         @Result(property = "password",column = "password"),
         @Result(property = "userSex",column = "user_sex"),
         @Result(property = "nickName",column = "nick_name"),
+        @Result(property = "birthday",column = "birthday"),
     })
     User findUserByName(String userName);
 }

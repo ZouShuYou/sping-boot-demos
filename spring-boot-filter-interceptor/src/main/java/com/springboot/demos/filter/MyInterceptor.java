@@ -21,10 +21,10 @@ public class MyInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         System.out.println("处理拦截之前");
         request.setAttribute("startTime", System.currentTimeMillis());
-        //if (null == request.getSession().getAttribute("SESSION")){
-        //    response.sendRedirect(request.getContextPath() + "/login");
-        //    return false;
-        //}
+        if (null == request.getSession().getAttribute("SESSION")){
+            response.sendRedirect(request.getContextPath() + "/login");
+            return false;
+        }
         System.out.println(((HandlerMethod) handler).getBean().getClass().getName());
         System.out.println(((HandlerMethod) handler).getMethod().getName());
         return true;

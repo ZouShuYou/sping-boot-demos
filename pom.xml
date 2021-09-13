@@ -12,11 +12,13 @@
     <modules>
         <module>spring-bean-lifecycle</module>
         <module>spring-boot-async</module>
+        <module>spring-boot-content-negotiation</module>
         <module>spring-boot-data-cache</module>
         <module>spring-boot-data-jpa</module>
         <module>spring-boot-data-redis</module>
-        <module>spring-boot-helloworld</module>
         <module>spring-boot-file-upload</module>
+        <module>spring-boot-filter-interceptor</module>
+        <module>spring-boot-helloworld</module>
         <module>spring-boot-mybatis</module>
         <module>spring-boot-mybatis-annotation</module>
         <module>spring-boot-mybatis-multidatasource-annotation</module>

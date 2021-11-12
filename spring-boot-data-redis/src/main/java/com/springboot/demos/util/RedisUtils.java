@@ -1,8 +1,9 @@
 package com.springboot.demos.util;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
@@ -12,8 +13,10 @@ import java.util.concurrent.TimeUnit;
  * @Description
  * @date 2021-03-23 15:23
  */
+@Component
 public class RedisUtils {
-    @Autowired
+
+    @Resource
     RedisTemplate<String, Object> redisTemplate;
 
     public boolean expire(String key,long time){
@@ -53,5 +56,9 @@ public class RedisUtils {
 
     public void set(String key, Object value){
         redisTemplate.opsForValue().set(key,value);
+    }
+
+    public void hset(String key,String hashkey,Object val){
+        redisTemplate.opsForHash().put(key,hashkey,val);
     }
 }

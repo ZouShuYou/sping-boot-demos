@@ -2,6 +2,7 @@ package com.springboot.demos.web;
 
 import com.springboot.demos.domain.User;
 import com.springboot.demos.util.RedisUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,14 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    static RedisUtils redisUtils;
-
-    static {
-        redisUtils = new RedisUtils();
-    }
+    @Autowired
+    private RedisUtils redisUtils;
 
     @PostMapping(value = "/user")
     public void addUser(@RequestBody User user){
-        redisUtils.set(user.getUserName(),user);
+        redisUtils.hset("user",user.getUserName(),user);
     }
 }
